@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Game
+</name>
+</assembly>
+<members>
+<member name="T:Game.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Game.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Game.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Game.AddQuiz.CreateQuiz(System.String@)">
+<summary>
+Prompts user to enter a username.
+Returns: Name as String.
+Takes Parameters: Name As String
+</summary>
+</member>
+<member name="M:Game.AddQuiz.CreateQuestions(System.Int32)">
+<summary>
+Asks user for questions and answers they want in their quiz.
+Returns: Nothing.
+Takes Parameters: Quiz_Length As Integer.
+</summary>
+</member>
+<member name="M:Game.MathQuiz.Quiz_Start_Prompt">
+<summary>
+Prompts user to start quiz. 
+Returns: Nothing. 
+Takes Parameters: Nothing.
+</summary>
+</member>
+<member name="M:Game.MathQuiz.AskQuestions(System.Int32,System.Int32,System.Int32@,System.Int32@)">
+<summary>
+Prompts user to start quiz. 
+Returns: Score As . 
+Takes Parameters: MaxScore As Integer, MinScore as Integer, Correct as Integer, TotalScore as Integer.
+</summary>
+</member>
+<member name="M:Game.MainPage.SlowType(System.String,System.Int32)">
+<summary>
+Writes every out slowly with with a given time delay between each letter. 
+Returns: Nothing. 
+Takes Parameters: message as String, interval As String
+</summary>
+</member>
+<member name="M:Game.MainPage.SetUsername(System.String@)">
+<summary>
+Prompts user to enter a username. 
+Returns: Nothing
+Takes Parameters: Name As String
+</summary>
+</member>
+<member name="M:Game.MainPage.UsernameConfirm(System.String)">
+<summary>
+Prompts user to confirm their name. 
+Returns: Nothing. 
+Takes Parameters: Name As String
+</summary>
+</member>
+<member name="M:Game.MainPage.Pick_Quiz">
+<summary>
+Prompts user to pick a quiz. 
+Returns: Nothing. 
+Takes Parameters: Nothing.
+</summary>
+</member>
+<member name="M:Game.MainPage.View_All_Quizes">
+<summary>
+Prints all user made quizzes. 
+Returns: Nothing. 
+Takes Parameters: Nothing.
+</summary>
+</member>
+<member name="M:Game.MainPage.Menu">
+<summary>
+Displays a menu to user showing them options. 
+Returns: Nothing. 
+Takes Parameters: Nothing.
+</summary>
+</member>
+<member name="M:Game.MainPage.ReferenceMakeUser">
+<summary>
+Used to stop looping when creating username. 
+Returns: Name as String. 
+Takes Parameters: Name As String
+</summary>
+</member>
+<member name="M:Game.MainPage.Referenced_Main">
+<summary>
+Subroutine for other scripts to reference without going through startup processes. 
+Returns: Nothing. 
+Takes Parameters: Nothing.
+</summary>
+</member>
+</members>
+</doc>
